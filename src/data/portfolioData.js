@@ -32,7 +32,7 @@ export const TELEMETRY_METRICS = [
   { value: "15+", label: "Production Platforms Supported", detail: "Blockchain, Gaming, RWA/IDO, APIs" },
   { value: "80%", label: "WebSocket Latency Cut", detail: "Lambda/API Gateway → EC2 Migration" },
   { value: "60%", label: "Faster Deployment Workflows", detail: "GitHub Actions & GitLab CI/CD" },
-  { value: "Full Nodes", label: "Bitcoin & Dogecoin", detail: "Pruning, Indexing, Localhost-only RPC" },
+  { value: "Voice AI", label: "Multi-Tenant Platform", detail: "FastAPI, pgvector & Redis streaming" },
   { value: "99.98%", label: "High Availability SLA", detail: "Zero Unplanned Major Outages" },
   { value: "4+ Yrs", label: "Production Experience", detail: "AWS, Azure, Linux & VPS/Contabo" }
 ];
@@ -75,7 +75,7 @@ export const EXPERIENCES = [
       "Migrated production backends from a hosting control panel to Nginx/Apache with Cloudflare Origin certificates for TLS termination and edge routing; served Unity WebGL workloads from EC2.",
       "Debugged and hardened Azure Terraform deployments by replacing hardcoded subnet references with module outputs, removing plaintext admin credentials from tracked configuration, attaching NSGs to VM NICs, and updating legacy VM resources.",
       "Diagnosed a real-time WebGL backend issue involving WebSocket statelessness and cold-start latency, then migrated the workload from Lambda/API Gateway to EC2 while retaining RDS PostgreSQL and S3 within a VPC.",
-      "Operated Bitcoin and Dogecoin full nodes with pruning, indexing, localhost-only RPC and wallet management; integrated Ethereum/TON via external RPC and administered MongoDB/PostgreSQL with automated Docker/mongodump backups."
+      "Deployed and operated a multi-tenant AI voice platform handling real-time calls — containerizing a FastAPI backend, a pgvector knowledge store, and a Redis cache, with WebSocket-aware routing for sub-second speech-to-text, LLM, and text-to-speech streaming."
     ],
     techStack: [
       "AWS (EC2, S3, RDS, Lambda, API Gateway)",
@@ -87,8 +87,10 @@ export const EXPERIENCES = [
       "GitLab CI/CD",
       "Nginx & Apache",
       "Cloudflare Origin SSL",
-      "Bitcoin & Dogecoin Core",
-      "Ethereum & TON RPC",
+      "FastAPI & WebSockets",
+      "pgvector (PostgreSQL 16)",
+      "Redis Cache",
+      "AI Speech & LLM Streaming",
       "PostgreSQL & MongoDB",
       "UFW & Private Subnets"
     ]
@@ -249,7 +251,7 @@ SUMMARY: DevOps Engineer with 4+ years supporting production cloud and server in
   • Built CI/CD pipelines in GitHub Actions and GitLab CI/CD for production deployments.
   • Migrated WebGL backend from Lambda to EC2, cutting latency by 80%.
   • Debugged and hardened Azure Terraform deployments with zero-trust NSGs.
-  • Operated Bitcoin and Dogecoin full nodes with localhost-only RPC and automated backups.
+  • Deployed multi-tenant AI voice platform with FastAPI, pgvector, Redis, and real-time WebSockets.
 
 [MAR 2022 - JUN 2023] SMIK Systems Pvt Ltd | Coimbatore, India
   Role: DevOps Engineer

@@ -70,8 +70,8 @@ export default function AboutEditorial() {
             <div className="space-y-6 text-base sm:text-lg lg:text-xl text-[#a2b3ae] font-sans leading-relaxed">
               <p>
                 Over the past 4+ years, I have supported production cloud and server infrastructure across <strong className="text-tactical-parchment font-semibold">AWS, Azure, and VPS environments</strong>. 
-                From deploying and operating <strong className="text-tactical-parchment font-semibold">Bitcoin and Dogecoin full nodes</strong> 
-                for blockchain exchange platforms to cutting <strong className="text-tactical-parchment font-semibold">80% latency on multiplayer Unity WebGL backends</strong>, 
+                From deploying and operating a <strong className="text-tactical-parchment font-semibold">multi-tenant Voice AI platform</strong> 
+                handling real-time calls with pgvector and Redis to cutting <strong className="text-tactical-parchment font-semibold">80% latency on multiplayer Unity WebGL backends</strong>, 
                 I treat infrastructure not as static servers, but as a living, resilient software system.
               </p>
               <p>

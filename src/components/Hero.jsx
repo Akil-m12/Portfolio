@@ -136,7 +136,7 @@ export default function Hero({ onOpenTerminal }) {
               <div>
                 <span className="text-[#6e857f] block text-xs uppercase font-semibold mb-0.5">PRODUCTION HIGHLIGHT</span>
                 <span className="text-emerald-400 font-medium leading-relaxed block">
-                  Operated Bitcoin & Dogecoin full nodes with localhost-only RPC and zero unplanned desyncs.
+                  Deployed and operated multi-tenant Voice AI platform with sub-second STT, pgvector RAG, and Redis cache.
                 </span>
               </div>
 
