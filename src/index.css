@@ -1,6 +1,34 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* ====================================================
+   TAILWIND V4 THEME — Custom design tokens via @theme
+   ==================================================== */
+@theme {
+  --container-7xl: 105rem;
+
+  /* Chassis color palette */
+  --color-chassis-950: #070a09;
+  --color-chassis-900: #0b0f0e;
+  --color-chassis-850: #0f1514;
+  --color-chassis-800: #141d1b;
+  --color-chassis-700: #1e2b28;
+  --color-chassis-600: #2b3d39;
+
+  /* Tactical semantic colors */
+  --color-tactical-emerald: #22c55e;
+  --color-tactical-sage: #4ade80;
+  --color-tactical-amber: #f59e0b;
+  --color-tactical-crimson: #ef4444;
+  --color-tactical-cyan: #06b6d4;
+  --color-tactical-parchment: #e8e4dc;
+  --color-tactical-dim: #8f9b97;
+
+  /* Font families */
+  --font-sans: "Space Grotesk", "Cabinet Grotesk", sans-serif;
+  --font-serif: "Instrument Serif", "Newsreader", serif;
+  --font-mono: "JetBrains Mono", "Space Mono", monospace;
+  --font-display: "Bebas Neue", "Cabinet Grotesk", sans-serif;
+}
 
 @layer base {
   body {
@@ -34,7 +62,7 @@
 /* Tactical grid backdrop */
 .bg-tactical-grid {
   background-size: 32px 32px;
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
 }

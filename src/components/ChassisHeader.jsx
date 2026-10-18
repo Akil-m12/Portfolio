@@ -21,8 +21,7 @@ export default function ChassisHeader({ onOpenTerminal }) {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
             <span className="text-emerald-400 font-bold">PROD_OK</span>
-            <span className="text-[#4b6059]">|</span>
-            <span className="text-[#a2b3ae]">99.98% SLA</span>
+
           </div>
 
           
